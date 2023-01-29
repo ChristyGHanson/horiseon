@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #ffffff;
 }
 
 .header {
@@ -15,13 +15,11 @@ body {
     color: #ffffff;
 }
 
+/*Changed font color to #ffffff. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+    color: #ffffff;
 }
 
 .header div {
@@ -32,14 +30,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*Consolidation: I used a child combinator*/
+.header div ul>li {
     list-style-type: none;
-}
-
-.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 
 a {
     color: #ffffff;
@@ -193,6 +190,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
 }
 
 .footer h2 {

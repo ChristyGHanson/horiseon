@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--I changed the title of the website to a more descriptive title.-->
+    <title>Homepage for Horiseon Social Solution Services, Inc.</title>
 </head>
 
 <body>
     <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--I did not feel that <h1>Hori<span class="seo">seo</span>n</h1> was accessible enough. I changed it to just "Horiseon" and deleted the CSS elements that edited the "seo" in "Horiseon."-->
+        <h1>Horiseon</h1>
         <!-- If a semantic <nav> child tag is included on this line (between the h1 and div tags) for the three navigation anchor tags, the alignment of the navigation links changes on the live webpage.-->
         <div>
             <!-- I added the nav tag below. It does not change the alignment of any links when I reviewed it. The tag is situated as close as possible to the navigation links when I checked using Dev Tools. -->
@@ -37,7 +39,9 @@
         <div class="search-engine-optimization">
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+                <!--Included alt attribute for the img.-->
+                <img src="./assets/images/search-engine-optimization.jpg"
+                    alt="Picture of a desktop with office supplies, laptop and coffee" class="float-left" />
             </figure>
             <!--Included the <article> semantic tag to encompass the h2 and p elements.-->
             <article>
@@ -55,7 +59,9 @@
         <div id="online-reputation-management" class="online-reputation-management">
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+                <!--Included alt attribute for the img.-->
+                <img src="./assets/images/online-reputation-management.jpg"
+                    alt="Photo of a laptop with the word 'Reputation' displayed on-screen." class="float-right" />
             </figure>
             <!--Included the <article> semantic tag to encompass the h2 and p elements.-->
             <article>
@@ -71,7 +77,9 @@
         <div id="social-media-marketing" class="social-media-marketing">
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+                <!--Included alt attribute for the img.-->
+                <img src="./assets/images/social-media-marketing.jpg" alt="Photo of people sitting down in a meeting."
+                    class="float-left" />
             </figure>
             <!--Included the <article> semantic tag to encompass the h2 and p elements.-->
             <article>
@@ -90,7 +98,8 @@
             <h3>Lead Generation</h3>
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/lead-generation.png" />
+                <!--Image is just for decoration. I left the alt value blank.-->
+                <img src="./assets/images/lead-generation.png" alt=""></img>
             </figure>
             <!--Included the <aside> semantic tag to encompass the <p> tag.-->
             <aside>
@@ -105,7 +114,8 @@
             <h3>Brand Awareness</h3>
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/brand-awareness.png" />
+                <!--Pic is just for decoration. I left the alt value blank.-->
+                <img src="./assets/images/brand-awareness.png" alt=""></img>
             </figure>
             <!--Included the <aside> semantic tag to encompass the <p> tag.-->
             <aside>
@@ -120,7 +130,8 @@
             <h3>Cost Management</h3>
             <!--There is an image here, so I added the <figure> tag.-->
             <figure>
-                <img src="./assets/images/cost-management.png"></img>
+                <!--Pic is just for decoration. I left the alt value blank.-->
+                <img src="./assets/images/cost-management.png" alt=""></img>
             </figure>
             <!--Included the <aside> semantic tag to encompass the <p> tag.-->
             <aside>
@@ -133,9 +144,9 @@
         </div>
     </div>
     <div class="footer">
-        <!--This is a <footer> tag section.-->
+        <!--This is a <footer> tag for the footer area.-->
         <footer>
-            <h2>Made with ❤️️ by Horiseon</h2>
+            <h4>Made with ❤️️ by Horiseon</h4>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
