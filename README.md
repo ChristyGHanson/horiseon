@@ -1,4 +1,4 @@
-# UW Module 01 Challenge
+# UW Module 01 Challenge - Christy Hanson
 ## Code Refactor Starter Code
 * FINISHED - I cloned and copied my starter code to my local folder.
 
@@ -23,13 +23,13 @@ I WANT a codebase that follows accessibility standards SO THAT our own site is o
 GIVEN a webpage meets accessibility standards:
 * FINISHED: I checked to make sure anchor tags are functioning properly.
 
-*FINISHED: I enclosed as many comments as I could to describe my HTML refactoring tasks. 
+* FINISHED: I enclosed as many comments as I could to describe my HTML refactoring tasks. 
 
 * FINISHED: Semantic HTML tags are enclosed.
 
 * FINISHED: HTML elements are in place as far as I can tell.
 
-*FINISHED: Accessible alt attribute descriptions are enclosed in the img attributes for the articles. I left the alt attributes blank for the <aside> section on the right-hand margin of the webpage since they were only for decoration.
+* FINISHED: Accessible alt attribute descriptions are enclosed in the img attributes for the articles. I left the alt attributes blank for the "aside" section on the right-hand margin of the webpage since they were only for decoration.
 
 * FINISHED: My heading attributes were changed to follow sequential order.
 
