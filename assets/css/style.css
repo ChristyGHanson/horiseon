@@ -19,20 +19,21 @@ body {
     padding: 20px;
 }
 
-/*Consolidation: I used a child combinator*/
+/*Consolidation: I used a child combinator for the unordered navbar list and items.*/
 .header div ul>li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Horiseon <h1> header */
+/* This styles the Horiseon <h1> level text. */
 .header h1 {
     display: inline-block;
     font-size: 50px;
     color: #ffffff;
 }
 
+/* This styles the header. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,11 +43,13 @@ body {
     color: #ffffff
 }
 
+/* This block styles the hyperlinks in the navigation bar. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Large image with higher contrast filter applied. */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,13 +60,14 @@ a {
     filter: contrast(1.10);
 }
 
+/* This styles the box for the "content" class.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Refactored classes CSS */
+/* Refactored classes CSS which are contained in the "content" class. */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -96,6 +100,7 @@ a {
     margin-right: 25px;
 }
 
+/* Styling for the "benefits" class. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,7 +139,7 @@ a {
     filter: contrast(1.75);
 }
 
-/* Footer is consolidated.*/
+/* Refactored footer*/
 .footer {
     padding: 30px;
     clear: both;
